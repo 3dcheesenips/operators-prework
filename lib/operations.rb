@@ -1,11 +1,10 @@
 def unsafe?(speed)
   if speed > 60 || speed < 40
     true
-  end
   else
     false
-  end
-end
+  end #closes if/else scope
+end #closes method definition scope
 
 
 
